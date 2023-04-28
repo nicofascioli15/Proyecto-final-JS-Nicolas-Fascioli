@@ -15,4 +15,5 @@ const mostrarProducto = (nuevoProducto) => {
 const muestraProductos = document.querySelector("#muestraProductos")
 todosLosProductos.forEach((producto) => {
     mostrarProducto(producto)
+    
 });

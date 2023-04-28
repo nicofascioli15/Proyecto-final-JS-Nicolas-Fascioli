@@ -25,5 +25,14 @@ const agregarProductos = document.querySelector("#agregarProductos")
     todosLosProductos.push(nuevoProducto)
     localStorage.setItem("todosProductos", JSON.stringify(todosLosProductos))
     agregarProductos.reset()
-    mostrarProducto(nuevoProducto)
+    notificacionOk("Elemento creado con exito")
+    
 })
+
+
+const notificacionOk = (notificacion) =>{
+    Toastify({
+        text: notificacion,
+        duration: 3000
+        }).showToast();
+}
