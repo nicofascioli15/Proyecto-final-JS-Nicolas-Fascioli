@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>BelHorizonte</title>
+</head>
+<body>
+    <header class="container">
+        <a href="">
+            <img src="./assets/img/logoPrincipal.png" alt="Logo de la marca">
+        </a>
+
+        <ul>
+            <li><a href="./index.html">Inicio</a></li>
+            <li><a href="">Hombres</a></li>
+            <li><a href="">Mujeres</a></li>
+            <li><a href="">Accesorios</a></li>
+            <li><a href=""><i class="fa-solid fa-cart-shopping"></i></a></li>
+            <li><a href="./agregarProductos.html">Agregar Productos</a></li>
+        </ul>
+    </header>
+
+    <main>
+
+        <form action="" id="agregarProductos">
+
+            <input type="text" placeholder="Titulo" name="titulo" required>
+            <input type="text" placeholder="Breve descripcion" name="descripcion" required>
+            <input type="number" placeholder="Importe" name="precio" required> 
+            <input type="number" placeholder="Stock" name="stock" required>
+            <button type="submit">Agregar</button>
+        </form>
+
+        <div id="muestraProductos" class="mostradorProductos container">
+                
+        </div>
+
+    </main>
+
+    <footer></footer>
+
+    <script src="https://kit.fontawesome.com/f7a3ba95e0.js" crossorigin="anonymous"></script>
+    <script src="./script.js"></script>
+</body>
+</html>
