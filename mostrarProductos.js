@@ -7,8 +7,10 @@ const mostrarProducto = (nuevoProducto) => {
                                 <p>Id: ${nuevoProducto.id}</p>
                                 <p>${nuevoProducto.descripcion}</p>
                                 <p>$ ${nuevoProducto.precio}.-</p>
-                                <p>Stock: ${nuevoProducto.stock}</p>`
-
+                                <p>Stock: ${nuevoProducto.stock}</p>
+                                <button>Editar</button> 
+                                <button>Eliminar</button> 
+                                `
     muestraProductos.append(tarjetaProducto)
 }
 
